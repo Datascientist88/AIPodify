@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcaster</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="c-player">
+        <div class="c-player__current-song">
+          <div class="c-player__cd">
+            <div class="c-player__cd-thumb" style="background-image: url('https://f4.bcbits.com/img/a0568269163_16.jpg')"></div>
+          </div>
+          
+          <div id="js-playing-now" class="c-player__playing-now">
+            <p>Now Playing</p>
+            <h2>Amon The Sign</h2>
+          </div>
+      
+          <div class="c-player__controls">
+            <div class="c-player__button btn-repeat">
+              <i class="fas fa-redo"></i>
+            </div>
+            <div class="c-player__button btn-prev">
+              <i class="fas fa-step-backward"></i>
+            </div>
+            <div class="c-player__button btn-toggle-play">
+              <i class="fas fa-pause icon-pause"></i>
+              <i class="fas fa-play icon-play"></i>
+            </div>
+            <div class="c-player__button btn-next">
+              <i class="fas fa-step-forward"></i>
+            </div>
+            <div class="c-player__button btn-random">
+              <i class="fas fa-random"></i>
+            </div>
+          </div>
+      
+          <div class="c-player__progress">
+            <div class="c-player__progress-start-time">0:00</div>
+            <input class="c-player__progress-bar" 
+                   type="range" 
+                   value="0" 
+                   step="0.00001" 
+                   min="0"
+                   max="100" />
+            <div id="js-duration-song" class="c-player__progress-end-time">4:05</div>
+          </div>
+          
+      
+          <audio id="js-player-audio" class="c-player__audio" src="#"></audio>
+        </div>
+      
+        <div class="c-player__playlist">
+          <div class="c-player__song">
+            <div class="c-player__song-number">1</div>
+            <div class="c-player__song-infos">
+              <h3 class="c-player__song-title">Music name</h3>
+              <p class="c-player__song-author">Singer</p>
+            </div>
+            <div class="c-player__song-duration">
+              Song Duration
+            </div>
+          </div>
+        </div>
+        
+        <div class="c-player__band-infos">
+          <div>MOHAMMED BAHAGEEL</div>
+          <a href="https://www.linkedin.com/in/mohammed-bahageel-94609b205/" target="_blank">LinkedIn</a>
+        </div>
+      </div> 
+      <script src="main.js"></script>     
+</body>
+</html>
