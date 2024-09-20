@@ -113,6 +113,14 @@ const app = {
       image: "images/dataviz.gif",
       path: "Audio/Front-End Development in Data Visualization.wav"
     },
+    {
+      index: 12,
+      name: "The Era of Continuously Learning Analytic Assets",
+      singer: "Mohammed Bahageel",
+      duration: "5:32",
+      image: "images/EQ.gif",
+      path: "Audio/The Era of Continuously Learning Analytic Assets.wav"
+    },
   ],
 
   defineProperties: function () {
