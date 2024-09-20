@@ -104,7 +104,15 @@ const app = {
       duration: "9:37",
       image: "images/ML.jpg",
       path: "Audio/Advancing Machine Learning.wav"
-    }
+    },
+    {
+      index: 11,
+      name: "Frontend Development for Data Visualization",
+      singer: "Mohammed Bahageel",
+      duration: "7:50",
+      image: "images/dataviz.gif",
+      path: "Audio/Front-End Development in Data Visualization.wav"
+    },
   ],
 
   defineProperties: function () {
