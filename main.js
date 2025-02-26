@@ -26,6 +26,14 @@ const app = {
   songs: [
     {
       index: 1,
+      name: " Craking Mediacal Mysteries",
+      singer: "Mohammed Bahageel",
+      duration: "13:33",
+      image: "images/giphy.gif",
+      path: "Audio/bacteria.wav"
+    },
+    {
+      index: 2,
       name: " Understanding the Controversy",
       singer: "Mohammed Bahageel",
       duration: "10:49",
@@ -33,7 +41,7 @@ const app = {
       path: "Audio/Noble prize 1.wav"
     },
     {
-      index: 2,
+      index: 3,
       name: "Emotional Intelligence & AI",
       singer: "Mohammed Bahageel",
       duration: "10:48",
@@ -41,7 +49,7 @@ const app = {
       path: "Audio/Incorporating emotional intelligence in AI Models.wav"
     },
     {
-      index: 3,
+      index: 4,
       name: "Unveiling the Human Among AI Models",
       singer: "Mohammed Bahageel",
       duration: "5:55",
@@ -49,7 +57,7 @@ const app = {
       path: "Audio/Unveiling the Human Among AI Models.wav"
     },
     {
-      index: 4,
+      index: 5,
       name: "The Gradual Path to AGI",
       singer: "Mohammed Bahageel",
       duration: "8:17",
@@ -57,7 +65,7 @@ const app = {
       path: "Audio/The Gradual Path to AGI Step-by-Step Improvements in AI Intelligence.wav"
     },
     {
-      index: 5,
+      index: 6,
       name: "AI Training Conundrum",
       singer: "Mohammed Bahageel",
       duration: "15:28",
@@ -65,7 +73,7 @@ const app = {
       path: "Audio/AI Training Conundrum.wav"
     },
     {
-      index: 6,
+      index: 7,
       name: "Demystifying Devin AI Augmentation",
       singer: "Mohammed Bahageel",
       duration: "8:37",
@@ -73,7 +81,7 @@ const app = {
       path: "Audio/Demystifying Devin How AI Augments, Not Replaces, Software Engineers.wav"
     },
     {
-      index: 7,
+      index: 8,
       name: "Q Star AI Reasoning Capabilities",
       singer: "Mohammed Bahageel",
       duration: "5:36",
@@ -82,7 +90,7 @@ const app = {
         "Audio/Q-star Reasoning Capabilities.wav"
     },
     {
-      index: 8,
+      index: 9,
       name: "Vector Embedding Databases",
       singer: "Mohammed Bahageel",
       duration: "8:27",
@@ -90,7 +98,7 @@ const app = {
       path: "Audio/Unlocking the Power of Vector Embedding Databases.wav"
     },
     {
-      index: 9,
+      index: 10,
       name: "The Epitome of Multimodality",
       singer: "Mohammed Bahageel",
       duration: "7:12",
@@ -98,7 +106,7 @@ const app = {
       path: "Audio/THE EPITOME OF MULTIMODALITY.wav"
     },
     {
-      index: 10,
+      index: 11,
       name: "Revolutionizing Healthcare AI Medical Imaging",
       singer: "Mohammed Bahageel",
       duration: "8:18",
@@ -106,7 +114,7 @@ const app = {
       path: "Audio/Revolutionizing Healthcare AI, Deep Learning, and MONAI in Medical Imaging.wav"
     },
     {
-      index: 11,
+      index: 12,
       name: "Advancing Machine Learning",
       singer: "Mohammed Bahageel",
       duration: "9:37",
@@ -114,7 +122,7 @@ const app = {
       path: "Audio/Advancing Machine Learning.wav"
     },
     {
-      index: 12,
+      index: 13,
       name: "Frontend Development for Data Visualization",
       singer: "Mohammed Bahageel",
       duration: "7:50",
@@ -122,7 +130,7 @@ const app = {
       path: "Audio/Front-End Development in Data Visualization.wav"
     },
     {
-      index: 13,
+      index: 14,
       name: "The Era of Continuously Learning Analytic Assets",
       singer: "Mohammed Bahageel",
       duration: "5:32",
