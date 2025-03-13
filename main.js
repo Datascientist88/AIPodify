@@ -30,7 +30,7 @@ const app = {
       singer: "Mohammed Bahageel",
       duration: "19:37",
       image: "images/origin.gif",
-      path: "Audio/bacteria.wav"
+      path: "Audio/deviant.wav"
     },
     {
       index: 2,
